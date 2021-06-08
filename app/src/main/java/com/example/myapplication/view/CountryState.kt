@@ -1,4 +1,4 @@
-package com.example.myapplication.state
+package com.example.myapplication.view
 
 import com.example.myapplication.data.CountryDto
 
