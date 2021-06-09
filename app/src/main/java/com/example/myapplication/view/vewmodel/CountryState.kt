@@ -1,4 +1,4 @@
-package com.example.myapplication.view
+package com.example.myapplication.view.vewmodel
 
 import com.example.myapplication.data.CountryDto
 

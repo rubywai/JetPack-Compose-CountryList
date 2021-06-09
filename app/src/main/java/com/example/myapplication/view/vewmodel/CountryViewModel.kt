@@ -1,4 +1,4 @@
-package com.example.myapplication.view
+package com.example.myapplication.view.vewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -19,7 +19,7 @@ class CountryViewModel : ViewModel() {
                 _countryLiveData.value = CountryState.Success(countries)
             }
             catch (e : Exception){
-                _countryLiveData.value = CountryState.Failure("Error While Loading")
+                _countryLiveData.value = CountryState.Failure("Error While Loading ${e.localizedMessage}")
             }
         }
 
